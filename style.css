@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#netflix {
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 25px;
+
+}
+
+#netflixx {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 10px;
+
+    border-radius: 30px;
+    border-color: none;
+    margin: 25px;
+    cursor: pointer;
+}
+
+#netflixx:hover {
+    background: rgba(255, 255, 255, 0.822);
+}
+
+.mainhead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mmainhead {
+    background: #201418;
+    margin: 0px;
+    height: 3500px;
+}
+
+.underpiv {
+    position: relative;
+    background-image: url(./background\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+}
+
+.underpiv::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(0.5);
+    z-index: 0;
+}
+
+.underpiv > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+.align {
+    padding: 100px;
+    flex-wrap: wrap;
+
+}
+
+.unlimited {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+.ready {
+    color: white;
+    padding-top: 5px;
+}
+
+.star {
+    display: flex;
+    font-size: 20px;
+    font-weight: normal;
+}
+.double{
+    display: flex;
+    justify-content: center;
+}
+
+.asad {
+    padding-left: 20px;
+    width: 500px;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    background: rgba(230, 230, 230, 0.767);
+    border: 1px solid rgb(209, 209, 209);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    /* color: rgb(255, 255, 255); */
+    /* background-color: rgba(128, 128, 128, 0.637); */
+}
+.computer{
+    display: flex;
+    justify-content: end;
+}
+
+.asad:hover {
+    background: rgb(230, 230, 230);
+}
+
+
+
+
+.imgwaladiv :hover{
+    transform: scale(1.1) !important;
+position: relative;
+}
+
+.onee:hover{
+
+transform: scale(1.1) !important;
+z-index: 13000;
+}
+
+.asadd {
+
+    background: red;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    color: white;
+    margin: 10px;
+    border-radius: 30px;
+}
+.readydoublee{
+display: block;
+
+}
+.doublee{
+   padding-left: 380px; 
+   font-size: 14px;
+   /* font-weight: bolder; */
+     color: rgb(255, 255, 255); 
+
+}
+
+.asadd:hover {
+    background: rgba(255, 0, 0, 0.829);
+}
+
+.insidepic {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 110px;
+    margin-right: 110px;
+    justify-content: space-between;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+
+
+}
+
+
+.one {
+    font-size: 60px;
+    font-weight: bolder;
+
+    position: relative;
+
+    margin-right: -30px;
+
+
+}
+
+.photo {
+    width: 150px;
+    height: 300px;
+    z-index: 0px;
+
+}
+.onee{
+    color: red; 
+    /* z-index: 50px; */
+    /* margin-left: 90px ; */
+  
+}
+
+.oneee:hover{
+    transition: 1s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+    transform: scale(1.1);
+}
+.photo:hover {
+    /* transition: 1s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+    transform: scale(1.1); */
+    /* width: 145px;
+    height: 290px; */
+}
+.two:hover{
+    transition: .5s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+    transform: scale(1.1);
+
+}
+.three:hover{
+    transition: .5s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+    transform: scale(1.1);
+
+}
+.enjoy{
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.four:hover{
+    transition: .5s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+    transform: scale(1.1);
+
+}
+
+.five:hover{
+    transition: .5s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+    transform: scale(1.1);
+
+}
+
+.six:hover{
+    transition: .5s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+    transform: scale(1.1);
+
+}
+
+
+
+.div {
+    margin-top: 50px;
+    color: white;
+    width: 250px;
+    font-size: 15px;
+    background-color: rgba(247, 247, 247, 0.075);
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    line-height: 22px;
+   display: inline-block;
+  margin: 5px;
+
+}
+.divv{
+  
+    color: white;
+    background-color: rgba(247, 247, 247, 0.075);
+    width: auto;
+  margin: 10px;
+padding-left: 20px;
+font-size: 18px;
+padding-top: 23px;
+border-radius: 10px;
+margin-right: 165px;
+
+}
+.divv:hover{
+    background-color: rgba(204, 204, 204, 0.178);
+}
+.enjoyy{
+    
+}
+.para1{
+color:rgba(255, 255, 255, 0.795) ;
+}
+.more{
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 20px;
+color: rgba(255, 255, 255, 0.87);
+}
+.aabout {
+    color: rgb(255, 255, 255);
+    margin-left:135px ;
+    margin-top: 40px;
+  
+}
+.spann{
+    display: flex;
+    flex-direction:  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    .align {
+        padding: 20px;
+        flex-wrap: wrap;
+
+    }
+
+    .unlimited {
+        padding-top: 50px;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    .asad {
+        padding-left: 20px;
+        width: 300px;
+        text-align: left;
+        margin-top: 20px;
+        font-size: 20px;
+        border-radius: 30px;
+        border: 1px solid rgb(209, 209, 209);
+        padding-top: 9px;
+        padding-bottom: 9px;
+
+    }
+
+    #netflixx {
+
+        padding: 8px;
+
+
+    }
+
+    #netflix {
+
+        font-size: 30px;
+
+
+    }
+
+    .asadd {
+
+        padding-left: 20px;
+        width: 200px;
+        text-align: center;
+
+        font-size: 28px;
+        margin-top: 20px;
+        margin-left: 50px;
+
+
+    }
+
+}
